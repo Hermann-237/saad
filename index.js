@@ -3,14 +3,14 @@ const app = express();
 const mongoose = require("mongoose");
 const myRoutes = require("./routes/myRoutes");
 const dotenv = require("dotenv"); // DO NOT PUT A SEMICOLON AFTER THE ENV VARIABLE IN THE .ENV FILE
-/* dotenv.config(); */
+dotenv.config();
 /* const port = process.env.PORT || 3000;  */
 const port = 80
 const cookieParser = require("cookie-parser");
 app.use(cookieParser()); 
 const bodyParser = require("body-parser")
 /* const URL = process.env.URL */
-const URL = "mongodb+srv://test:Test@cluster0.mdani.mongodb.net/Practice?retryWrites=true&w=majority";
+const URL = "mongodb+srv://user4:1234@cluster0.nvyxm.mongodb.net/productDB?retryWrites=true&w=majority"
 
 
 app.use(bodyParser.urlencoded({extended:true}))
