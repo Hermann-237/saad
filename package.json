@@ -1,23 +1,31 @@
 {
-  "name": "Database-Connection",
+  "name": "saad",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hermann-237/saad.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hermann-237/saad/issues"
+  },
+  "homepage": "https://github.com/Hermann-237/saad#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "joi": "^17.4.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.17",
-    "nodemon": "^2.0.7",
     "routes": "^2.1.0",
     "urlencoded-parser": "^1.0.0"
   }
