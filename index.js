@@ -24,7 +24,9 @@ mongoose.connect(URL,{
 
 
 //EJS bit
-app.set("view engine", "ejs");
+app.set("view engine","ejs")
+app.set("views",__dirname+"/views")
+
 
 //Routes
 
