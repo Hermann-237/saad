@@ -8,8 +8,8 @@ const dotenv = require("dotenv"); // DO NOT PUT A SEMICOLON AFTER THE ENV VARIAB
 const port = 80
 const cookieParser = require("cookie-parser");
 app.use(cookieParser()); 
-const URL = process.env.URL
-/* const url = "mongodb+srv://test:Test@cluster0.mdani.mongodb.net/Practice?retryWrites=true&w=majority" */
+/* const URL = process.env.URL */
+const URL = "mongodb+srv://test:Test@cluster0.mdani.mongodb.net/Practice?retryWrites=true&w=majority";
 
 
 
