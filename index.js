@@ -1,11 +1,11 @@
 const express = require("express");
 const app = express();
-const mongoose = require("mongoose");
-const myRoutes = require("./routes/myRoutes")/* const port = process.env.PORT || 3000;  */
+/* const mongoose = require("mongoose");
+const myRoutes = require("./routes/myRoutes") */
 const port = 80
-const cookieParser = require("cookie-parser");
+/* const cookieParser = require("cookie-parser");
 app.use(cookieParser()); 
-const bodyParser = require("body-parser")
+const bodyParser = require("body-parser") */
 /* const URL = process.env.URL */
 /* const URL = "mongodb+srv://user4:1234@cluster0.nvyxm.mongodb.net/productDB?retryWrites=true&w=majority"
 
