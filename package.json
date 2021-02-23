@@ -4,29 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Hermann-237/saad.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Hermann-237/saad/issues"
-  },
-  "homepage": "https://github.com/Hermann-237/saad#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.5",
     "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "joi": "^17.4.0",
+    "express-validator": "^6.9.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.11.17",
-    "routes": "^2.1.0",
-    "urlencoded-parser": "^1.0.0"
+    "nodemon": "^2.0.7",
+    "vercel": "^21.2.3"
   }
 }
